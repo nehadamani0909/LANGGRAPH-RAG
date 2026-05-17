@@ -1,0 +1,22 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+venv/
+env/
+
+# Local secrets and OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Jupyter and local caches
+.ipynb_checkpoints/
+.streamlit/secrets.toml

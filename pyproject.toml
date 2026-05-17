@@ -1,0 +1,16 @@
+[project]
+name = "langraph-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "faiss-cpu>=1.13.0",
+    "langchain>=0.3.30",
+    "langchain-community>=0.3.31",
+    "langchain-google-genai>=2.1.12",
+    "langchain-groq>=0.3.8",
+    "langgraph>=0.6.11",
+    "python-dotenv>=1.2.1",
+    "streamlit>=1.50.0",
+]
